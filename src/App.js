@@ -13,7 +13,7 @@ function App() {
           GiphySearch
         </Link>
         <Route component={GifSearch} path="/search/:search" />
-        <Route component={home} path="/" />
+        <Route component={home} path="/react-gifhysearch" />
       </section>
       <GifFooter />
     </div>
