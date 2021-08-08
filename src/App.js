@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <section>
-        <Link className="app-title" to="/">
+        <Link className="app-title" to="/react-gifhysearch">
           GiphySearch
         </Link>
         <Route component={GifSearch} path="/search/:search" />
